@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marvel Cakes | Ile-Ife</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #f7f7f7;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #eee;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .location {
+      text-align: center;
+    }
+    .cta {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Marvel Cakes</h1>
+  <p>Delicious cakes & pastries made with love</p>
+</header>
+
+<section>
+  <h2>What We Offer</h2>
+  <div class="services">
+    <div class="card">Wedding Cakes</div>
+    <div class="card">Cupcakes</div>
+    <div class="card">Small Chops</div>
+    <div class="card">Pastries</div>
+    <div class="card">Shawarma</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Marvel Cakes?</h2>
+  <p style="text-align:center;">
+    At Marvel Cakes, we specialize in creating beautiful and tasty treats for weddings,
+    celebrations, and everyday enjoyment. Our products are freshly made, hygienically
+    prepared, and crafted to leave a lasting impression.
+  </p>
+</section>
+
+<section class="location">
+  <h2>Location</h2>
+  <p>Ondo Road, Ile-Ife</p>
+</section>
+
+<section class="cta">
+  <h2>Place Your Order Now</h2>
+  <p>Fast response • Freshly baked • Reliable service</p>
+  <a href="https://wa.me/2349159861442">Order on WhatsApp</a>
+</section>
+
+<footer>
+  © 2026 Marvel Cakes. All rights reserved.
+</footer>
+
+</body>
+</html>
